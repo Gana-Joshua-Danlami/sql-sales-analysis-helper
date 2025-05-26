@@ -1,8 +1,11 @@
-1. All Orders by Bianca
+### 1. All Orders by Bianca
+
+```sql
 %%sql result <<
 SELECT *
 FROM Sales
 WHERE Customer = 'Bianca'
+
 
 2. Total Quantity Sold per Product
 %%sql result <<
